@@ -23,7 +23,7 @@ function sort(document: any) {
 
   let text = document.getText().split(/\n/);
 
-  if (extension === 'js' || extension === 'tsx') {
+  if (extension === 'js' || extension === 'tsx' || extension === 'ts') {
       return sorts[extension](text);
   }
 }
