@@ -33,14 +33,14 @@ function getMaxRange(): Range {
 }
 
 export function sortImports() {
-  const { activeTextEditor: editor, activeTextEditor: document} = window;
+  const { activeTextEditor: editor, activeTextEditor: {document}}:any = window;
 
   const sortedText = sort(document);
   if (!sortedText) {
     return;
   }
 
-  return editor!.edit(edit => {
+  return editor!.edit((edit:any) => {
     edit.replace(getMaxRange(), sortedText);
   });
 }
