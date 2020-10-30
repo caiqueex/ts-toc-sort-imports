@@ -2,12 +2,12 @@
 	"name": "ts-toc-sort-imports",
 	"displayName": "TS toc sort imports",
 	"description": "Sort imports by length",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "caiqueex",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/caiqueex/ts-toc-sort-imports.git"
-	  },
+	},
 	"engines": {
 		"vscode": "^1.50.0"
 	},
